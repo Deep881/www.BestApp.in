@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    height: 10vh;
+}
+.media{
+    flex-basis: 50%;
+    background-color: yellow;
+}
+.nav{
+    background-color: rgb(255, 89, 0);
+    flex-basis: 50%;
+}
+.content{
+    display: flex;
+    flex-basis: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+.one{
+    background-color: pink;
+    height:20vh;
+}
+.two{
+    background-color: rgb(250, 101, 126);
+    height:20vh;
+}
+.three{
+    background-color: rgb(216, 50, 78);
+    height:20vh;
+}
+.four{
+    background-color: rgb(190, 7, 38);
+    height:20vh;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.top{
+    display: flex;
+    height: 40vh;
+}
+.top1{
+    background-color: rgb(133, 30, 129); 
+    flex-basis: 50%;
+}
+.top2{
+    background-color: rgb(201, 4, 195);
+    flex-basis: 50%;
+    
+}
+.bottom{
+    display: flex;
+    height: 40vh;
+}
+.bottom1{
+    background-color: rgb(252, 61, 61);
+    flex-basis:50% ;
+}
+.bottom2{
+    background-color: rgb(246, 28, 28);
+    flex-basis:50% ;
+}
+article{
+    display: flex;
+    flex-basis: 25%;
+}
+.article1{
+    background-color: rgb(47, 102, 243);
+flex-basis: 50%;
+}
+.article2{
+    background-color: rgb(39, 65, 230);
+flex-basis: 50%;
+}
+footer{
+    height: 10vh;
+background-color: rgb(237, 58, 250);
+}
