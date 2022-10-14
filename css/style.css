@@ -7,7 +7,6 @@
 
 /* home section */
 #home {
-
     height: 100vh;
 }
 
@@ -75,6 +74,7 @@ header {
 .left1 {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     background-color: rgba(221, 132, 132, 0);
     flex-basis: 50%;
     border-radius: 10px;
@@ -116,6 +116,7 @@ header {
 }
 
 .left2 {
+    height: 100vh;
     background-color: rgba(232, 100, 100, 0);
     flex-basis: 50%;
     border-radius: 10px;
@@ -179,7 +180,7 @@ header {
 .f1 {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 90vh;
     border: 2px solid black;
     border-radius: 10px;
     margin: 50px 10px 50px 10px;
@@ -217,7 +218,7 @@ header {
     height: 10vh;
     flex-basis: 100%;
     border-radius: 10px;
-    margin: 0px 10px 10px 10px;
+    margin: 50px 10px 10px 10px;
     line-height: 10vh;
 }
 
@@ -228,7 +229,6 @@ header {
 .abt {
     display: flex;
 }
-
 .abt1 img {
     margin-left: 30%;
     border-radius: 30px;
@@ -255,13 +255,13 @@ header {
 }
 
 .abt1 {
-    height: 87vh;
+    height: 100vh;
     flex-basis: 49%;
     margin: 0px 10px 30px 10px;
 }
 
 .abt2 {
-    height: 87vh;
+    height: 100vh;
     flex-basis: 49%;
     border-radius: 10px;
     margin: 0px 0px 30px 10px;
@@ -317,14 +317,14 @@ header {
 .rev-title {
     background-color: rgb(231, 46, 108);
     height: 10vh;
-    flex-basis: 100%;
     border-radius: 10px;
     margin: 0px 10px 10px 10px;
     line-height: 10vh;
     text-align: center;
 }
 
-#review h2 {
+.per h2 {
+    padding: 10px;
     color: rgb(245, 27, 100);
     text-align: center;
 }
@@ -336,10 +336,10 @@ header {
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 0px 10px 10px black;
-    height: 79vh;
+    height: 70vh;
     flex-basis: 28%;
     border-radius: 10px;
-    margin: 10px 50px 30px 50px;
+    margin: 50px 50px 30px 50px;
 }
 
 .per-img {
